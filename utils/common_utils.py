@@ -94,7 +94,6 @@ class CommonUtils(object):
                     render_data_json = json.loads(render_data_text, strict=False)
                     webid = render_data_json.get('app').get('odin').get('user_unique_id')
                     return ttwid_str, webid
-            except (
-                requests.exceptions.ProxyError, requests.exceptions.ReadTimeout, requests.exceptions.ConnectionError) as e:
+            except Exception as e:
                 logging.error(e)
                 time.sleep(1)
