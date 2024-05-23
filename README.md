@@ -28,5 +28,5 @@ ttwid类似客户端id，即便是游客模式，也可以对页面数据进行�
 https://blog.csdn.net/u013444182/article/details/134933150
 
 ## 爬取如下：
-<img src="https://raw.githubusercontent.com/NearHuiwen/TiktokDouyinCrawler/master/TiktokDouyinCrawler/img/a.png" width="1000">
+<img src="https://raw.githubusercontent.com/NearHuiwen/TiktokDouyinCrawler/main/img/img1.png" width="1000">
 
